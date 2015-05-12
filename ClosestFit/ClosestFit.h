@@ -30,7 +30,7 @@ class ClosestFit
 	string **mat;
 	Node* node;
 	vector<float>Hs;
-	//CLOSEST PB
+	//CLOSEST PB DATA
 	string path;
 	CSVLoader* csvPB;
 	unsigned int _row;

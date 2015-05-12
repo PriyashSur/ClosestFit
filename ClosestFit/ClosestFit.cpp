@@ -178,6 +178,7 @@ Body* ClosestFit::PB_CATEGORIZER(char gender, float height, float bust, float wa
 	}
 	catch (exception& e)
 	{
+		//IF THERE IS NO ID IS GENERATED FROM THE SCALE MEASUREMENTS THIS EXCEPTION WILL THROW
 		cout <<"Bodies Not Found : "<< e.what() << endl;
 	}
 	return nullptr;
