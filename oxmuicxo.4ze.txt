@@ -1,0 +1,33 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   ClosestFit/ClosestFit.cpp
+#
+# Untracked files:
+#	ClosestFit.opensdf
+#	ClosestFit.sdf
+#	ClosestFit.sln
+#	ClosestFit.v12.suo
+#	ClosestFit/ClosestFit.aps
+#	ClosestFit/ClosestFit.h
+#	ClosestFit/ClosestFit.rc
+#	ClosestFit/ClosestFit.vcxproj
+#	ClosestFit/ClosestFit.vcxproj.filters
+#	ClosestFit/ClosestFit.vcxproj.user
+#	ClosestFit/Debug/
+#	ClosestFit/PB.csv
+#	ClosestFit/PB_DATA.csv
+#	ClosestFit/Source.cpp
+#	ClosestFit/csv.cpp
+#	ClosestFit/csv.h
+#	ClosestFit/node.cpp
+#	ClosestFit/node.h
+#	Debug/
+#	PB.csv
+#	PB_DATA.csv
+#
+
