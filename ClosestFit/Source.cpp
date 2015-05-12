@@ -8,7 +8,7 @@ int main()
 	cf->createBodies();
 	cf->generateClusters();
 	//ORDER OF USER INPUTS--M/F,HEIGHT,BUST,WAIST,HIPS
-	Body* test = cf->PB_CATEGORIZER('M',172, 97, 79, 91);
+	Body* test = cf->PB_CATEGORIZER('M',182, 102, 84, 97);
 	cout << test->getID() << endl;
 	for (auto &i : test->getMeasurements())
 	{
