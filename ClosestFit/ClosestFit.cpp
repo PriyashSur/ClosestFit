@@ -25,6 +25,7 @@ void ClosestFit::generateClusters()
 	node->createClusters();
 }
 
+//GENERATING THE ID BASED ON THE SCALED DOWN USER MEASUREMENTS
 string ClosestFit::createID(int index,vector<vector<int>>pb_mat,float Bus,float Wus,float Hius)
 {
 	string ID;
@@ -41,7 +42,7 @@ string ClosestFit::createID(int index,vector<vector<int>>pb_mat,float Bus,float 
 			id1 = oss.str();
 		}
 	}	
-	min = 1000000;
+	min = std::numeric_limits<int>::max();;
 	for (int i = 4; i<8; i++)
 	{
 		int result = abs(Wus - pb_mat[index][i]);
@@ -53,7 +54,7 @@ string ClosestFit::createID(int index,vector<vector<int>>pb_mat,float Bus,float 
 			id2 = oss.str();
 		}
 	}
-	min = 1000000;
+	min = std::numeric_limits<int>::max();;
 	for (int i = 8; i<12; i++)
 	{
 		int result = abs(Hius - pb_mat[index][i]);
@@ -184,8 +185,7 @@ Body* ClosestFit::PB_CATEGORIZER(char gender, float height, float bust, float wa
 	return nullptr;
 }
 
-
-
+//FOR DEBUGGING PURPOSE
 void ClosestFit::show()
 {
 	for (auto &i : node->getFemaleNormalBodies())
