@@ -33,6 +33,7 @@ string ClosestFit::createID(int index,vector<vector<int>>pb_mat,float Bus,float 
 	int min = std::numeric_limits<int>::max();
 	for (int i = 0; i<4; i++)
 	{
+		//CALCULATING THE ERROR FROM USER SCALED VALUE AND THE PB VALUE AND TAKE THE MINIMUM
 		int result = abs(Bus - pb_mat[index][i]);
 		if (min >=result)
 		{
@@ -45,6 +46,7 @@ string ClosestFit::createID(int index,vector<vector<int>>pb_mat,float Bus,float 
 	min = std::numeric_limits<int>::max();;
 	for (int i = 4; i<8; i++)
 	{
+		//CALCULATING THE ERROR FROM USER SCALED VALUE AND THE PB VALUE AND TAKE THE MINIMUM
 		int result = abs(Wus - pb_mat[index][i]);
 		if (min>=result)
 		{
@@ -57,6 +59,7 @@ string ClosestFit::createID(int index,vector<vector<int>>pb_mat,float Bus,float 
 	min = std::numeric_limits<int>::max();;
 	for (int i = 8; i<12; i++)
 	{
+		//CALCULATING THE ERROR FROM USER SCALED VALUE AND THE PB VALUE AND TAKE THE MINIMUM
 		int result = abs(Hius - pb_mat[index][i]);
 		if (min>=result)
 		{

@@ -8,7 +8,8 @@ int main()
 	cf->createBodies();
 	cf->generateClusters();
 	//ORDER OF USER INPUTS--M/F,HEIGHT,BUST,WAIST,HIPS
-	Body* test = cf->PB_CATEGORIZER('M',172, 102, 84, 97);
+	//Body* test = cf->PB_CATEGORIZER('M',172, 102, 84, 97);
+	Body* test = cf->PB_CATEGORIZER('M', 160, 81, 61, 86);
 	cout << "----CLOSEST PB OF THE GIVEN USER INPUT----" << endl;
 	cout << test->getID() << endl;
 	for (auto &i : test->getMeasurements())
