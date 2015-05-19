@@ -1,10 +1,8 @@
-﻿Build started 5/13/2015 5:21:31 PM.
+﻿Build started 5/19/2015 12:59:50 PM.
      1>Project "C:\Users\PRIYASH_11\documents\visual studio 2013\Projects\ClosestFit\ClosestFit\ClosestFit.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4305 /wd4244 /wd4018 /analyze- /errorReport:prompt ClosestFit.cpp Source.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4305 /wd4244 /wd4018 /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-         ClosestFit.cpp
-         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PRIYASH_11\documents\visual studio 2013\Projects\ClosestFit\Debug\ClosestFit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PRIYASH_11\documents\visual studio 2013\Projects\ClosestFit\Debug\ClosestFit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PRIYASH_11\documents\visual studio 2013\Projects\ClosestFit\Debug\ClosestFit.lib" /MACHINE:X86 Debug\ClosestFit.obj
          Debug\csv.obj
@@ -15,4 +13,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.34
+Time Elapsed 00:00:00.87
